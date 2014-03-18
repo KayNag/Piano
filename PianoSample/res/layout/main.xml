@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/a"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/c"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/d"
+        android:text="E" />
+
+    <Button
+        android:id="@+id/f"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/e"
+        android:text="F" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/f"
+        android:text="G" />
+    
+</RelativeLayout>
